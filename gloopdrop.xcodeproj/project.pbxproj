@@ -8,24 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		2DAF0E7925CDB4AC00E05FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF0E7825CDB4AC00E05FD8 /* AppDelegate.swift */; };
-		2DAF0E7B25CDB4AC00E05FD8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2DAF0E7A25CDB4AC00E05FD8 /* GameScene.sks */; };
-		2DAF0E7D25CDB4AC00E05FD8 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2DAF0E7C25CDB4AC00E05FD8 /* Actions.sks */; };
 		2DAF0E7F25CDB4AC00E05FD8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF0E7E25CDB4AC00E05FD8 /* GameScene.swift */; };
 		2DAF0E8125CDB4AC00E05FD8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF0E8025CDB4AC00E05FD8 /* GameViewController.swift */; };
 		2DAF0E8425CDB4AC00E05FD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAF0E8225CDB4AC00E05FD8 /* Main.storyboard */; };
 		2DAF0E8625CDB4B400E05FD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DAF0E8525CDB4B400E05FD8 /* Assets.xcassets */; };
+		2DAF0E9325CDBBFD00E05FD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DAF0E9225CDBBFD00E05FD8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DAF0E7525CDB4AC00E05FD8 /* gloopdrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gloopdrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAF0E7825CDB4AC00E05FD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2DAF0E7A25CDB4AC00E05FD8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		2DAF0E7C25CDB4AC00E05FD8 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		2DAF0E7E25CDB4AC00E05FD8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2DAF0E8025CDB4AC00E05FD8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2DAF0E8325CDB4AC00E05FD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DAF0E8525CDB4B400E05FD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DAF0E8725CDB4B400E05FD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DAF0E9225CDBBFD00E05FD8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				2DAF0E7825CDB4AC00E05FD8 /* AppDelegate.swift */,
-				2DAF0E7A25CDB4AC00E05FD8 /* GameScene.sks */,
-				2DAF0E7C25CDB4AC00E05FD8 /* Actions.sks */,
 				2DAF0E7E25CDB4AC00E05FD8 /* GameScene.swift */,
 				2DAF0E8025CDB4AC00E05FD8 /* GameViewController.swift */,
+				2DAF0E9225CDBBFD00E05FD8 /* LaunchScreen.storyboard */,
 				2DAF0E8225CDB4AC00E05FD8 /* Main.storyboard */,
 				2DAF0E8525CDB4B400E05FD8 /* Assets.xcassets */,
 				2DAF0E8725CDB4B400E05FD8 /* Info.plist */,
@@ -127,10 +124,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DAF0E9325CDBBFD00E05FD8 /* LaunchScreen.storyboard in Resources */,
 				2DAF0E8425CDB4AC00E05FD8 /* Main.storyboard in Resources */,
-				2DAF0E7B25CDB4AC00E05FD8 /* GameScene.sks in Resources */,
 				2DAF0E8625CDB4B400E05FD8 /* Assets.xcassets in Resources */,
-				2DAF0E7D25CDB4AC00E05FD8 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
