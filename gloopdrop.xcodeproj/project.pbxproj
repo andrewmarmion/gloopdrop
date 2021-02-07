@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2D5F270025CEBAE500E48B61 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F26FF25CEBAE500E48B61 /* Player.swift */; };
 		2D5F270325CEBC3400E48B61 /* SpriteKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5F270225CEBC3400E48B61 /* SpriteKitHelper.swift */; };
+		2D61BD9B25D00B890023AB48 /* Collectible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D61BD9A25D00B890023AB48 /* Collectible.swift */; };
 		2DAF0E7925CDB4AC00E05FD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF0E7825CDB4AC00E05FD8 /* AppDelegate.swift */; };
 		2DAF0E7F25CDB4AC00E05FD8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF0E7E25CDB4AC00E05FD8 /* GameScene.swift */; };
 		2DAF0E8125CDB4AC00E05FD8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DAF0E8025CDB4AC00E05FD8 /* GameViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		2D5F26FF25CEBAE500E48B61 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		2D5F270225CEBC3400E48B61 /* SpriteKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitHelper.swift; sourceTree = "<group>"; };
+		2D61BD9A25D00B890023AB48 /* Collectible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collectible.swift; sourceTree = "<group>"; };
 		2DAF0E7525CDB4AC00E05FD8 /* gloopdrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gloopdrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DAF0E7825CDB4AC00E05FD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DAF0E7E25CDB4AC00E05FD8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				2DAF0E9225CDBBFD00E05FD8 /* LaunchScreen.storyboard */,
 				2DAF0E8225CDB4AC00E05FD8 /* Main.storyboard */,
 				2DAF0E8525CDB4B400E05FD8 /* Assets.xcassets */,
+				2D61BD9A25D00B890023AB48 /* Collectible.swift */,
 				2D5F26FF25CEBAE500E48B61 /* Player.swift */,
 				2D5F270225CEBC3400E48B61 /* SpriteKitHelper.swift */,
 				2DAF0E8725CDB4B400E05FD8 /* Info.plist */,
@@ -145,6 +148,7 @@
 			files = (
 				2D5F270025CEBAE500E48B61 /* Player.swift in Sources */,
 				2DAF0E7F25CDB4AC00E05FD8 /* GameScene.swift in Sources */,
+				2D61BD9B25D00B890023AB48 /* Collectible.swift in Sources */,
 				2DAF0E8125CDB4AC00E05FD8 /* GameViewController.swift in Sources */,
 				2D5F270325CEBC3400E48B61 /* SpriteKitHelper.swift in Sources */,
 				2DAF0E7925CDB4AC00E05FD8 /* AppDelegate.swift in Sources */,
